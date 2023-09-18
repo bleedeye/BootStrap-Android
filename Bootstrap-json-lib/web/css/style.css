@@ -1,0 +1,333 @@
+/*主体区*/
+body{
+	/*指定字体*/
+	font-family: '楷体';
+	/*背景颜色*/
+	background: #ffffff;
+	/*字体大小*/
+	font-size: 200%;
+}
+/*顶部多语言菜单*/
+.top_menu_text{
+	/*定位*/
+	position: absolute;
+	/*填充 上右下左，上右左下，上下左右，四个*/
+	padding: 1px 17%;
+	/*外边距上右下左，上右左 下，上下左右，四个*/
+	margin: 10 auto;
+}
+.top_menu_text a{
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+.top_menu_text a:hover{
+	color: #ff7f50;
+}
+/*标题区*/
+.header_bg{
+	/*上边框的样式*/
+	border-top: 58px groove white;
+	/*背景颜色*/
+	background-color: #ffffff;
+}
+.header{
+	padding: 2% 0;
+}
+.logo h1 a{
+	font-size: 1em;/*相对单位长度，1em=16px*/
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FF7F50;
+	font-family: '楷体';
+}
+.h_search{
+	width: 30%;
+	position: relative;
+	margin-top: 2%;
+}
+.h_search form{
+	width: 100%;
+}
+.h_search form input[type="text"]{
+	font-family: '宋体';
+	padding: 10px 16px;
+	outline: none;
+	border: 1px solid rgb(255, 102, 68);
+	border-radius: 20px ;
+	background: #ffffff;
+	width: 74%;
+	line-height: 22px;
+	position: relative;
+	-webkit-appearance: none;
+}
+.h_search form input[type="submit"]{
+	font-family: '宋体';
+	color: #ffffff;
+	padding: 13px 20px;
+	font-size:13px;
+	border: none;
+	border-radius: 20px ;
+	background: #ff7f50;
+	cursor: pointer;
+	width: 26%;
+	outline: none;
+	text-transform: uppercase;
+	line-height: 18px;
+	position: absolute;
+	-webkit-appearance: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.h_search form input[type="submit"]:hover{
+	background: #f67f55;
+}
+/*导航区*/
+.h_menu{
+	padding: 0;
+	background: #f5f5f5;
+}
+/*覆盖bootstrap原始样式*/
+.navbar{
+	position: relative;
+	min-height: 60px;
+	margin-bottom: 0px;
+	border: none;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form{
+	background: #f5f5f5;
+	color: #ffffff;
+	padding: 0;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navnar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover{
+	background: #ff7f50;
+	color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #000;
+	-webkit-transition: all 0.3s ease-in-out; 
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.nav>li{
+	border-right: 1px solid #ffffff;
+}
+.nav>li>a{
+	font-size: 13px;
+	padding: 20px 30px;
+	text-transform: uppercase;
+}
+/*社交图标*/
+.soc_icons{}
+.soc_icons ul{
+	margin-bottom: 0;
+}
+.soc_icons ul li{
+	display: inline-block;
+	border-left: 1px solid #ffffff;
+	margin: -3px;
+}
+.soc_icons ul li a{
+	color: #ffffff;
+	font-size: 24px;
+	display: block;
+	line-height: 60px;
+	width: 60px;
+	height: 60px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.soc_icons ul li a:hover{
+	background: #ff7f50;
+}
+/*图片|文字轮播*/
+.slider_bg {
+	background: url('../img/index_bg.jpg') no-repeat;
+	background-size: 100%;
+}
+.slider{
+	padding: 4%;
+}
+/*红色框的按钮*/
+.fa-btn {
+	font-size: 14px;
+	background: none;
+	cursor: pointer;
+	padding: 12px 40px;
+	display: inline-block;
+	margin: 10px 0px;
+	outline: none;
+	position: relative;
+	border: 2px solid #ff7f50;
+	color: #3b3b3b;
+	border-radius: 14px;
+	-webkit-border-radius:14px;
+	-moz-border-radius:14px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.fa-btn :hover,.fa-btn :active{
+	background: #ff7f50;
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+}
+/*专业介绍样式设计*/
+.main{
+	padding: 5% 0;
+	
+}
+.images_1_of_4 img{
+	display: inline-block;
+}
+.images_1_of_4 h4{
+	margin: 30px 0 15px;
+}
+.images_1_of_4 h4 a{
+	display: inline-block;
+	color: #353535;
+	font-size: 1.5em;
+	font-family: '宋体';
+	text-transform: uppercase;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.images_1_of_4 h4 a:hover{
+	text-decoration: none;
+	color: #ff5454;
+}
+.images_1_of_4 span{
+		width: 120px;
+		height: 120px;
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+}
+.bg{
+	background: #ff7f50;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	-o-border-radius: 75px;
+}
+.images_1_of_4 span i{
+	font-size: 6em;
+	color: #e0e0e0;
+	line-height: 2em;
+	text-shadow: 1px 1px 0px #3b3b3b;
+	-webkit-text-shadow:1px 1px 0px #3b3b3b;
+	-moz-text-shadow:1px 1px 0px #3b3b3b;
+	-o-text-shadow:1px 1px 0px #3b3b3b;
+	-ms-text-shadow:1px 1px 0px #3b3b3b;
+}
+.para{
+	font-size: 14px;
+	line-height: 1.8em;
+	color: #868686;
+}
+.images_1_of_4 a{
+	position: relative;
+	z-index: 1;
+}
+/**学院简介和优秀学院**/
+.main_btm{
+	background: #FFFFFF;
+	border-top: 1px solid rgb(233, 233, 233);
+}
+.content_right h4{
+	color: #353535;
+	font-size: 2.5em;
+	font-family: '微软雅黑';
+	line-height: 1.5em;
+}
+.content_right h4 span{
+	color: #ff5454;
+}
+.content_right a{
+	position: relative;
+    z-index: 1;
+}
+/*页脚*/
+.footer_bg{
+	background: #f6f6f6;	
+}
+.footer{
+	padding: 4%;
+}
+.copy p{
+	color: #3b3b3b;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+.copy p a{
+	color: #ff5454;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.copy p a:hover{
+	color: #3b3b3b;
+	text-decoration: none;
+}
+/*响应式布局设计 宽度小于768px时的样式*/
+@media only screen and(max-width:768px){
+	.logo{
+		text-align: center;
+	}
+	.h_search{
+		width: 98%;
+		padding:20px;
+	}
+	.h_menu{
+		position: relative;
+	}
+	.soc_icons{
+		position: absolute;
+		top: 0px;
+		background: #3b3b3b;
+	}
+	.navbar-default .navbar-toggle{
+		border-color: #FFF;
+	}
+	.navbar{
+		min-height: 51px;
+	}
+	.navbar-default{
+		background-color: #3b3b3b;
+	}
+	.navbar-nav{
+		margin: 0px 0px;
+	}
+	.nav>li>a{
+		padding: 20px 15px;
+	}
+	.soc_icons ul li a{
+		font-size:20px ;
+		line-height: 50px;
+		width: 50px;
+		height: 50px;
+	}
+	.slider_bg{
+		background-size: 100% 100%;
+	}
+}

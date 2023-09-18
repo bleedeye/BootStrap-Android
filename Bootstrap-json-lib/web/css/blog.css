@@ -1,0 +1,237 @@
+/* :start blog*/
+.blog_left{
+	display: block;
+}
+.blog_img{
+	margin: 4% 0 2%;
+}
+.blog_left img{
+	width: 100%;
+}
+.blog_left h4 a{
+	margin: 0 0 20px;
+	display: block;
+	text-transform: capitalize;
+	font-size: 1.5em;
+	color: #3b3b3b;
+	font-family: '微软雅黑';
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.blog_left h4:hover{
+	text-decoration: none;
+	color: #ff5454;
+}
+.blog_list{}
+.blog_list ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.blog_list ul li:first-child{
+	margin-left: 0;
+}
+.blog_list li a{
+	display: block;
+	padding: 4px 8px;
+	color: #b6b6b6;
+	text-transform: capitalize;
+}
+.blog_list li i{
+	font-size: 15px;
+	color: #b6b6b6;
+}
+.blog_list li span{
+	padding-left: 10px;
+	font-size: 14px;
+	color: #b6b6b6;
+}
+.blog_list li span:hover,.blog_list li a:hover{
+	color: #ff5454;
+	text-decoration: none;
+}
+.read_more a{
+	position: relative;
+	z-index: 1;
+}
+.social_network_likes{
+	text-align: center;
+}
+.social_network_likes li{
+	width: 20%;
+	display: inline-block;
+	margin-left: -4px;
+}
+.social_network_likes li:first-child{
+	margin-left: 0;
+	
+}
+.social_network_likes li a{
+	display: block;
+	color: #ffffff;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.social_network_likes li a p{
+	padding: 10px 0 50px;
+	font-size: 14px;
+	
+}
+.social_network_likes li a span{
+	display: block;
+	font-size: 24px;
+}
+.social_network_likes li a div.followers{
+	border-bottom: 1px solid #FFFFFF;
+}
+.social_network_likes li a:hover{
+	text-decoration: none;
+}
+.social_network_likes li a:first-child a{
+	border-left: none;
+}
+.social_network_likes li a.tweets{
+	background: #34ccff;
+}
+.social_network_likes li a.tweets:hover{
+	background: #2dc0f1;
+}
+.social_network_likes li a.facebook-followers{
+	background: #3B5A99;
+}
+.social_network_likes li a.facebook-followers:hover{
+	background: #33518d;
+}
+.social_network_likes li a.email{
+	background: #27c1b9;
+}
+.social_network_likes li a.email:hover{
+	background: #0bb1a8;
+}
+.social_network_likes li a.dribble{
+	background: #EB4580;
+}
+.social_network_likes li a.dribble:hover{
+	background: #E04580;
+}
+.social_network_likes li a div.social_network{
+	padding: 15px 0 10px;
+}
+.social_network i{
+	width: 45px;
+	height: 45px;
+	display: block;
+	background: url(../img/social-icon.png) no-repeat;
+	margin: 0 auto;
+}
+.social_network i.twitter-icon{
+	background-position: 0px 0px;
+}
+.social_network i.facebook-icon{
+	background-position: -47px 0px;
+}
+.social_network i.email{
+	background-position: -104px 0px;
+}
+.social_network i.dribble-icon{
+	background-position: -156px 0px;
+}
+.ads_nav{
+	margin-top: 30px;
+}
+.ads_nav li{
+	float: left;
+	width: 46%;
+	margin: 0 0 15px 15px;
+}
+.ads_nav li:nth-child(2),.ads_nav li:nth-child(4){
+	margin-left: 0;
+}
+.ads_nav li a{
+	display: block;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.ads_nav li a img{
+	width: 100%;
+}
+.ads_nav li a:hover{
+	zoom:1;
+	filter: alpha(opacity=50);/*过滤器属性：滤镜*/
+	opacity: 0.7;/*透明度级别*/
+	-webkit-transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-o-transition: opacity .15s ease-in-out;
+	-ms-transition: opacity .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
+}
+/*:start tag_nav*/
+.tag_nav{
+	margin: 8% 0;
+}
+.tag_nav li{
+	margin: 10px 5px 0 0;
+	display: inline-block;
+}
+.tag_nav li a{
+	display: block;
+	text-transform: capitalize;
+	background: #3b3b3b;
+	color: #FFFFFF;
+	font-size: 13px;
+	padding: 8px 14px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.tag_nav li.active a,
+.tag_nav li a:hover{
+	background: #ff5454;
+	text-decoration:none;
+	color: #ffffff;;
+}
+/*start news_letter*/
+.news_letter{
+	margin: 8% 0;
+}
+.news_letter form input[type="text"]{
+	font-family: '微软雅黑';
+	font-weight: 100;
+	padding: 10px;
+	display: block;
+	width: 100%;
+	background: #ffffff;
+	outline: none;
+	color: #555555;
+	font-size: 13px;
+	border: 1px solid #dadada;
+	-webkit-appearance: none;
+}
+.news_letter form span{
+	position: relative;
+	z-index: 1;
+}
+.news_letter form input[type="submit"]{
+	-webkit-appearance: none;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: none;
+}

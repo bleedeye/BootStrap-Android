@@ -1,0 +1,43 @@
+.technology{
+	padding:4% 0;
+}
+.technology h2{
+	margin: 0 0 20p;
+	text-transform: capitalize;
+	font-size: 3em;
+	color: #3b3b3b;
+	font-family: '微软雅黑';
+}
+.technology h4{
+	font-size: 22px;
+	color: #5b5b5b;
+	font-weight: 100;
+	text-transform: capitalize;
+	display: block;
+	margin: 10px 0 8px;
+}
+.tech_para{
+	padding-left: 0;
+	padding-right: 0;
+}
+.technology_list1{
+	margin-top: 20px;
+}
+.pagination>li>a,
+.pagination>li>span{
+	font-size: 16px;
+	padding: 10px 16px;
+	color: #BDBDBD;
+	background-color: #3b3b3b;
+	border: 1px solid #2c2929;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li .active{
+	color: #FFFFFF;
+	background-color: #FF5454;
+	border-color: #DA4A4A;
+}
+.alert{
+	font-size: 13px;
+}
